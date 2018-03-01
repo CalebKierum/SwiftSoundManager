@@ -1,6 +1,9 @@
 # Sound Manager
 Wrapper for the AVAudioPlayer that supports sound effects, and music.
 
+# Update
+Currently mostly broken in new versions of iOS may update eventually but is not in the plans for now
+
 The music played through this manager is set so that it will not play if any other sounds in the system are playing. This way people can listen to their own music while using the application. The music also supports having two simultanious songs that can be switched betreen. I used this feature in my app "Toothache" so that I could impliment a marimba mode where all the music begins to play with a marimba.
 
 **Note:** Only use this is you are ok with the sounds staying around in memory for the duration of the program.
